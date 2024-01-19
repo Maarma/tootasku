@@ -8,7 +8,7 @@ const Footer = () => {
                     <Link href="/tingimused">Tingimused</Link>
                 </li>
                 <li>
-                    <Link href="/">KKK</Link>
+                    <Link href="/kkk">KKK</Link>
                 </li>
                 <li>
                     <Link href="/meie">Võta meiega ühendust</Link>
