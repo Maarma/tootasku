@@ -11,7 +11,7 @@ const Section3 = () => {
                     <p className="w-[29rem] pb-16">Töötasku on teenuse vahendus keskkond, kust leiad enda murele lihtsa vaevaga lahenduse. Pane oma töö üles või vaata teenusepakkujate andmebaasi.</p>
                     <div className="pb-16 justify-self-start">
                         <Link href="/lisauus" className="text-center rounded-full px-8 py-4 bg-[var(--black)] text-[var(--white)]">Jäta kuulutus</Link>
-                        <Link href="/login" className="mx-12 text-center rounded-full px-8 py-4 border-[1px] border-[var(--gray)] border-solid">Registreeri oma teenus</Link>
+                        <Link href="/regamine" className="mx-12 text-center rounded-full px-8 py-4 border-[1px] border-[var(--gray)] border-solid">Registreeri oma teenus</Link>
                     </div>
                     <ul className="flex gap-8">
                         <li>

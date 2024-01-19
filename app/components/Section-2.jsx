@@ -1,5 +1,6 @@
 import { LuMessagesSquare, LuPenLine } from "react-icons/lu";
 import { LiaToolsSolid } from "react-icons/lia";
+import Link from "next/link";
 
 const Section2 = () => {
     return ( 
@@ -10,14 +11,18 @@ const Section2 = () => {
             </div>
             <ul className="flex justify-evenly w-[90rem] mx-auto pt-12">
                 <li className="w-[24rem]">
-                    <LuMessagesSquare  className="text-8xl text-[var(--orange)]"/>
-                    <h2 className="font-bold text-3xl py-6">Suhtle pakkujaga</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                    <Link href="/pakkujad/">
+                        <LuMessagesSquare  className="text-8xl text-[var(--orange)]"/>
+                        <h2 className="font-bold text-3xl py-6">Suhtle pakkujaga</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                    </Link>
                 </li>
                 <li className="w-[24rem]">
-                    <LiaToolsSolid className="text-8xl text-[var(--gray)]"/>
-                    <h2 className="font-bold text-3xl py-6">Vali teenus</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                    <Link href="/pakkujad/">
+                        <LiaToolsSolid className="text-8xl text-[var(--gray)]"/>
+                        <h2 className="font-bold text-3xl py-6">Vali teenus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                    </Link>
                 </li>
                 <li className="w-[24rem]">
                     <LuPenLine className="text-8xl text-[var(--green)]"/>

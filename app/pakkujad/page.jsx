@@ -42,7 +42,7 @@ const Pakkujad = () => {
                 <li key={index} className="p-4 flex flex-col items-start gap-8 pb-16">
                     <h2 className='font-bold text-xl'>{item.title}</h2>
                     <p>{item.description}</p>
-                    <Link className="text-bold text-center rounded-full px-8 py-4 w-[12rem] border-[1px] bg-[var(--yellow)]" href="/">Ava kuulutus</Link>
+                    <Link className="text-bold text-center rounded-full px-8 py-4 w-[12rem] border-[1px] bg-[var(--yellow)]" href="/">Ava profiil</Link>
                 </li>
                 ))}
             </ul>
