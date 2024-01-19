@@ -37,8 +37,8 @@ const login = () => {
                     <Link href="/">Unustasid parooli?</Link>
                 </div>
                 <div className="flex flex-col pt-16">
-                    <button className="bg-[var(--orange)] text-[var(--white)] rounded-md text-center px-8 py-2 mb-6">Logi sisse</button>
-                    <Link href="/" className="border-[1px] rounded-md text-center px-8 py-2">Registeeri kliendiks/teenusepakkujaks</Link>
+                    <Link href="/" className="bg-[var(--orange)] text-[var(--white)] rounded-md text-center px-8 py-2 mb-6">Logi sisse</Link>
+                    <Link href="/regamine" className="border-[1px] rounded-md text-center px-8 py-2">Registeeri kliendiks/teenusepakkujaks</Link>
                 </div>
             </div>
         </main>
