@@ -4,12 +4,13 @@ import Link from "next/link";
 import React from "react";
 import { useEffect } from 'react'
 
-export default function App() {
-    const [option, setOption] = React.useState("era")};
+
 
 const Rergister = () => {
+    const [option, setOption] = React.useState("male");
+
     return ( 
-        <register className="flex justify-center pb-12">
+        <div className="flex justify-center pb-12">
             <div>
                 <h1 className="flex font-bold text-3xl py-2 justify-center">Registreeri konto</h1>
                 <div className="flex items-center justify-center gap-12 flex-col py-16">
@@ -29,6 +30,8 @@ const Rergister = () => {
                     </div>
                 </div>
             </div>
-        </register>
+        </div>
      );
 };
+
+export default Rergister;
