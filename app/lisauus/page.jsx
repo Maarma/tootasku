@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LisaUus = () => {
     return ( 
         <main className="px-12">
@@ -31,7 +33,7 @@ const LisaUus = () => {
                     </form>
                 </div>
             </div>
-            <button className="m-2 text-bold text-center rounded-full px-8 py-4 w-[12rem] text-[var(--white)] border-[1px] bg-[var(--orange)]">Lisan kuulutuse</button>
+        <Link href="/kuulutus/" className="m-2 text-bold text-center rounded-full px-8 py-4 w-[12rem] text-[var(--white)] border-[1px] bg-[var(--orange)]">Lisan kuulutuse</Link>
         </main>
      );
 }
