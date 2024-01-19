@@ -1,5 +1,6 @@
 import { LuMessagesSquare, LuPenLine } from "react-icons/lu";
 import { LiaToolsSolid } from "react-icons/lia";
+import Link from "next/link";
 
 const Section2 = () => {
     return ( 
@@ -20,9 +21,11 @@ const Section2 = () => {
                     <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
                 </li>
                 <li className="w-[24rem]">
+                <Link href="/regamine/">
                     <LuPenLine className="text-8xl text-[var(--green)]"/>
                     <h2 className="font-bold text-3xl py-6">Registreeri konto</h2>
                     <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                </Link>
                 </li>
             </ul>
         </section>
