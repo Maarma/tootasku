@@ -21,7 +21,7 @@ const Kuulutused = () => {
             <div className="pb-6">
                 <div className="flex justify-between">
                     <h1 className="font-bold text-7xl py-4">Kuulutused</h1>
-                    <div class="w-[27rem] rounded-full bg-[var(--white)] flex items-center justify-between mt-8">
+                    <div className="w-[27rem] rounded-full bg-[var(--white)] flex items-center justify-between mt-8">
                         <input type="text" placeholder="Sisesta otsingusõna" className="bg-transparent focus:outline-none py-4 px-8 w-full"></input> 
                         <button className="py-4 px-8 rounded-full border-l w-56 bg-[var(--black)] text-[var(--white)] items-center">Otsi lehelt</button>
                     </div>
