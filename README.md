@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Team 
 
-# TA-23 
+# TA-22 
 
 Mari-Liis Sink
 Karel Maarma
